@@ -1,0 +1,9 @@
+/* App.css */
+#sec1 {
+  background-image: url('./assets/images/home-page1.jpg');
+  background-size: cover; /* Ensures the image covers the entire background */
+  background-repeat: no-repeat; /* Prevents the image from repeating */
+  background-position: center; /* Centers the image */
+  height: 100vh; /* Ensure the body takes up the full viewport height */
+  margin: 0; /* Remove any default margin */
+}
