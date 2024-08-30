@@ -1,7 +1,7 @@
 import './Navbar.css'
 
 
-const Navbar = () => {
+const Navbar = ({ handleRequestClick }) => {
 
   const scrollToSection = (id) => {
     const element = document.getElementById(id);
@@ -18,8 +18,8 @@ const Navbar = () => {
       </div>
       <div className='flex  gap-6'>
         <button className='hover:text-gray-400' onClick={() => {scrollToSection("about")}}>About</button>
-        <button className='hover:text-gray-400'>Gallery</button>
-        <button className='hover:text-gray-400'>Request a Free Quote</button>
+        <button className='hover:text-gray-400' onClick={() => {scrollToSection("gallery")}}>Gallery</button>
+        <button className='hover:text-gray-400' onClick={() => {scrollToSection("contact")}}>Contact</button>
       </div>
     </div>
   );

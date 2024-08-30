@@ -7,3 +7,7 @@
   height: 100vh; /* Ensure the body takes up the full viewport height */
   margin: 0; /* Remove any default margin */
 }
+
+#estimate {
+  background-color: rgb(129,139,126)
+}

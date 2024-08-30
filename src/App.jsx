@@ -5,16 +5,20 @@ import Navbar from "./components/Navbar";
 import RequestQuote from "./components/RequestQuote";
 import "react-image-gallery/styles/css/image-gallery.css";
 
-
 function App() {
   // const [count, setCount] = useState(0)
+
+  const handleRequestClick = () => {
+    window.location.href =
+      "mailto:bridgenorthbacksplash@outlook.com?subject=Request%20for%20Estimate";
+  };
 
   return (
     <>
       <main>
         <section id="sec1">
           <nav>
-            <Navbar />
+            <Navbar handleRequestClick={handleRequestClick} />
           </nav>
           <div className="flex flex-col items-center justify-center pt-36 text-center">
             <div>
@@ -23,12 +27,12 @@ function App() {
               </h1>
               <h2 className="text-3xl text-white font-black">Since 1985</h2>
               <div className="pt-8">
-                <RequestQuote />
+                <RequestQuote handleRequestClick={handleRequestClick} />
               </div>
             </div>
           </div>
         </section>
-        <section id="about">
+        <section id="about" className="my-12">
           <div className="p-6 flex justify-between">
             <div className="flex w-1/2">
               <h1 className="text-6xl font-black">
@@ -53,11 +57,56 @@ function App() {
           </div>
         </section>
         <section id="gallery" className="flex justify-center">
-  <div className="w-full max-w-4xl">
-    <Gallery />
-  </div>
-</section>
-
+          <div className="w-full max-w-4xl">
+            <Gallery />
+          </div>
+        </section>
+        <section id="testimonials" className="my-12">
+          <div className="p-6 flex justify-between">
+            <div className="flex w-1/2">
+              <h1 className="text-6xl font-black">Testimonials</h1>
+            </div>
+            <div className="w-1/2">
+              <p>
+                &quot;We hired Andy to tile our backsplash, and we couldn&apos;t
+                be happier with the results. The tile layout we requested was
+                unique, and the uneven artisan tiles could have posed a real
+                challenge, but Andy handled it like a true professional.
+                Everything is perfectly centered, and the ideas he suggested
+                were spot-on—we&apos;re so glad we took his advice. I highly
+                recommend Andy!&quot; — Nancy N.
+              </p>
+            </div>
+          </div>
+        </section>
+        <section id="estimate" className="mt-12">
+          <div className="flex flex-col items-center justify-center py-20 text-center">
+            <div>
+              <h1 className="text-6xl text-white">Request a free estimate</h1>
+              <h2 className="text-xl text-white">
+                A proposal will be drafted, and the complete process will be
+                clearly outlined.
+              </h2>
+              <div className="pt-8">
+                <RequestQuote handleRequestClick={handleRequestClick} />
+              </div>
+            </div>
+          </div>
+        </section>
+        <section id="contact">
+          <div className="flex flex-col items-center justify-center py-12 text-center">
+            <div>
+              <h1 className="text-4xl ">Bridgenorth Backsplash</h1>
+              <h2 className="text-xl ">
+                bridgenorthbacksplash@outlook.com
+              </h2>
+              <h2 className="text-xl">(705) 760-6699</h2>
+            </div>
+          </div>
+        </section>
+        <footer className="bg-gray-400 text-white text-center py-4 mt-0">
+          <small>© {new Date().getFullYear()} Bridgenorth Backsplash</small>
+        </footer>
       </main>
     </>
   );
