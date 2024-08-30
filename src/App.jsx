@@ -25,7 +25,7 @@ function App() {
             </div>
           </div>
         </section>
-        <section>
+        <section id="about">
           <div className="p-6 flex justify-between border border-red-400">
             <div className="flex w-1/2">
               <h1 className="text-6xl font-black">
