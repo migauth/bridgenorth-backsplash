@@ -22,7 +22,7 @@ function App() {
               <h1 className="text-4xl md:text-6xl text-white font-black">
                 Your local backsplash expert
               </h1>
-              <h2 className="text-2xl md:text-3xl text-white font-black">
+              <h2 className="text-2xl md:text-3xl text-white font-black mt-4">
                 Since 1985
               </h2>
               <div className="pt-8">
@@ -103,10 +103,14 @@ function App() {
           <div className="flex flex-col items-center justify-center py-12 text-center">
             <div>
               <h5 className="text-2xl md:text-4xl">Bridgenorth Backsplash</h5>
-              <h6 className="text-lg md:text-xl">
-                bridgenorthbacksplash@outlook.com
+              <h6 className="text-lg md:text-xl hover:text-gray-400">
+                <a href="mailto:bridgenorthbacksplash@outlook.com?subject=Request%20for%20Estimate">bridgenorthbacksplash@outlook.com</a> 
               </h6>
-              <h7 className="text-lg md:text-xl">(705) 760-6699</h7>
+              <h7 className="text-lg md:text-xl hover:text-gray-400">
+                <a href="tel:+17057606699" className="text-lg md:text-xl">
+                  (705) 760-6699
+                </a>
+              </h7>
             </div>
             <a
               href="https://www.instagram.com/bridgenorth_backsplash"
