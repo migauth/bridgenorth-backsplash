@@ -106,11 +106,11 @@ function App() {
               <h6 className="text-lg md:text-xl hover:text-gray-400">
                 <a href="mailto:bridgenorthbacksplash@outlook.com?subject=Request%20for%20Estimate">bridgenorthbacksplash@outlook.com</a> 
               </h6>
-              <h7 className="text-lg md:text-xl hover:text-gray-400">
+              <p className="text-lg md:text-xl hover:text-gray-400">
                 <a href="tel:+17057606699" className="text-lg md:text-xl">
                   (705) 760-6699
                 </a>
-              </h7>
+              </p>
             </div>
             <a
               href="https://www.instagram.com/bridgenorth_backsplash"
