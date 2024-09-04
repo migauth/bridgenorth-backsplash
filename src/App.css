@@ -18,3 +18,9 @@
     background-image: url('./assets/images/home-page/home-page-mobile.jpg'); /* Mobile-specific background image */
   }
 }
+
+@media only screen and (max-width: 896px) and (orientation: landscape) {
+  #sec1 .content-wrapper {
+    margin-top: -60px; /* Adjust the value as needed */
+  }
+}

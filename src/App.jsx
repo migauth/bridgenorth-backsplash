@@ -17,7 +17,7 @@ function App() {
           <nav>
             <Navbar handleRequestClick={handleRequestClick} />
           </nav>
-          <div className="flex flex-col items-center justify-center pt-36 text-center">
+          <div className="content-wrapper flex flex-col items-center justify-center pt-36 text-center">
             <div>
               <h1 className="text-4xl md:text-6xl text-white font-black">
                 Your local backsplash expert
@@ -104,7 +104,9 @@ function App() {
             <div>
               <h5 className="text-2xl md:text-4xl">Bridgenorth Backsplash</h5>
               <h6 className="text-lg md:text-xl hover:text-gray-400">
-                <a href="mailto:bridgenorthbacksplash@outlook.com?subject=Request%20for%20Estimate">bridgenorthbacksplash@outlook.com</a> 
+                <a href="mailto:bridgenorthbacksplash@outlook.com?subject=Request%20for%20Estimate">
+                  bridgenorthbacksplash@outlook.com
+                </a>
               </h6>
               <p className="text-lg md:text-xl hover:text-gray-400">
                 <a href="tel:+17057606699" className="text-lg md:text-xl">
