@@ -1,6 +1,6 @@
 /* App.css */
 #sec1 {
-  background-image: url('./assets/images/home-page/home-page3.jpg');
+  background-image: url('./assets/images/home-page/home-page-desktop.jpg');
   background-size: cover; /* Ensures the image covers the entire background */
   background-repeat: no-repeat; /* Prevents the image from repeating */
   background-position: center; /* Centers the image */
@@ -10,4 +10,11 @@
 
 #estimate {
   background-color: rgb(129,139,126)
+}
+
+/* Media Query for Smaller Screens */
+@media (max-width: 768px) {
+  #sec1 {
+    background-image: url('./assets/images/home-page/home-page-mobile.jpg'); /* Mobile-specific background image */
+  }
 }
