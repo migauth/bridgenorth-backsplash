@@ -47,8 +47,8 @@ function App() {
                 specializes in creating stunning backsplashes that enhance any
                 kitchen. His extensive experience and commitment to quality have
                 earned him a reputation as one of the area&apos;s most skilled
-                tilers. Whether you&apos;re looking to update your home with a
-                new backsplash or need expert advice on tile selection,
+                tilers. If you&apos;re looking to update your home with a
+                new backsplash,
                 Andy&apos;s craftsmanship and dedication ensure exceptional
                 results. Trust Andy Gauthier for unparalleled tile work that
                 combines artistry with durability.
