@@ -1,4 +1,3 @@
-// utils/loadImages.js
 export async function loadImages() {
   const modules = import.meta.glob('../assets/images/gallery/*.{jpg,jpeg,png}');
   const images = {};
