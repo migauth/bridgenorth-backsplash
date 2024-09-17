@@ -114,14 +114,14 @@ function App() {
                 </a>
               </p>
             </div>
-            <p className="text-lg md:text-xl pt-4">For more recent photos, please visit our Instagram page</p>
+            <p className="text-lg md:text-2xl py-4">For more recent photos, please visit our Instagram page</p>
             <a
               href="https://www.instagram.com/bridgenorth_backsplash"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="Instagram"
             >
-              <i className="fa-brands fa-instagram text-4xl hover:text-gray-400"></i>
+              <i className="fa-brands fa-instagram text-6xl hover:text-gray-400"></i>
             </a>
           </div>
         </section>
