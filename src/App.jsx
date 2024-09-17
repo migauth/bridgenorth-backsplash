@@ -33,13 +33,13 @@ function App() {
         </section>
 
         <section id="about" className="my-12">
-          <div className="p-6 flex flex-col md:flex-row justify-between">
-            <div className="md:w-1/2 mb-4 md:mb-0">
-              <h1 className="text-4xl md:text-6xl font-black">
+          <div className="p-6 flex flex-col lg:flex-row justify-between">
+            <div className="lg:w-1/2 mb-4 lg:mb-0">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black">
                 Specializing in Backsplashes
               </h1>
             </div>
-            <div className="md:w-1/2">
+            <div className="lg:w-1/2">
               <p>
                 Andy Gauthier is a highly experienced tiler based in
                 Bridgenorth, Ontario, with nearly 40 years of expertise in the
@@ -64,11 +64,11 @@ function App() {
         </section>
 
         <section id="testimonials" className="my-12">
-          <div className="p-6 flex flex-col md:flex-row justify-between">
-            <div className="md:w-1/2 mb-4 md:mb-0">
-              <h1 className="text-4xl md:text-6xl font-black">Testimonials</h1>
+          <div className="p-6 flex flex-col lg:flex-row justify-between">
+            <div className="lg:w-1/2 mb-4 lg:mb-0">
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black">Testimonials</h1>
             </div>
-            <div className="md:w-1/2">
+            <div className="lg:w-1/2">
               <p>
                 &quot;We hired Andy to tile our backsplash, and we couldn&apos;t
                 be happier with the results. The tile layout we requested was
