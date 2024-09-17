@@ -114,6 +114,7 @@ function App() {
                 </a>
               </p>
             </div>
+            <p className="text-lg md:text-xl pt-4">For more recent photos, please visit our Instagram page</p>
             <a
               href="https://www.instagram.com/bridgenorth_backsplash"
               target="_blank"

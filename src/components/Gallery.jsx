@@ -3,6 +3,15 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useState, useEffect } from "react";
 import { loadImages } from "../utils/loadImages";
+import "./Gallery.css";
+
+const CustomArrow = ({ className, style, onClick }) => (
+  <div
+    className={`${className} custom-arrow`}
+    style={{ ...style }}
+    onClick={onClick}
+  />
+);
 
 const Gallery = () => {
   const [images, setImages] = useState([]);
@@ -25,10 +34,12 @@ const Gallery = () => {
     autoplaySpeed: 5000,
     slidesToShow: 1,
     slidesToScroll: 1,
+    nextArrow: <CustomArrow />,
+    prevArrow: <CustomArrow />,
   };
 
   return (
-    <div className="max-w-4xl mx-auto"> {/* Container settings */}
+    <div className="max-w-4xl mx-auto gallery-container relative"> {/* Added relative positioning */}
       <Slider {...settings}>
         {images.map((url, index) => (
           <div key={index} className="w-full h-96 flex justify-center items-center"> {/* Slide container */}
