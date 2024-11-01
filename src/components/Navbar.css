@@ -1,1 +1,12 @@
+.navbar {
+  transition: background-color 0.3s ease-in-out;
+}
+
+.at-top {
+  background-color: rgba(31, 41, 55, 0.7); /* bg-gray-800/70 */
+}
+
+.scrolled {
+  background-color: rgba(31, 41, 55, 1); /* bg-gray-800 */
+}
 
