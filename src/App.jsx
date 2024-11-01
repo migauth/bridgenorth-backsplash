@@ -15,25 +15,25 @@ function App() {
           <Navbar />
         </nav>
 
-        <section id="home">
+        <section id="home" className="min-h-screen pt-20">
           <Home />
         </section>
 
-        <section id="about" className="my-12">
+        <section id="about" className="min-h-screen pt-20">
           <About />
         </section>
 
-        <section id="gallery" className="flex justify-center">
-          <div className="w-full max-w-full md:max-w-4xl">
+        <section id="gallery" className="flex justify-center items-center h-screen w-full">
+        <div className="w-full max-w-full border border-black">
             <Gallery />
           </div>
         </section>
 
-        <section id="testimonials" className="my-12">
+        <section id="testimonials" className="min-h-screen pt-20">
           <Testimonials />
         </section>
 
-        <section id="contact">
+        <section id="contact" className="min-h-screen py-4">
           <Contact />
         </section>
 

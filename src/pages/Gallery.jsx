@@ -14,7 +14,7 @@ const CustomArrow = ({ className, style, onClick }) => (
   />
 );
 
-const Gallery = () => {
+export default function Gallery() {
   const [images, setImages] = useState([]);
 
   useEffect(() => {
@@ -40,10 +40,11 @@ const Gallery = () => {
   };
 
   return (
-    <div className="max-w-4xl mx-auto gallery-container relative"> {/* Added relative positioning */}
+        <div className="max-w-4xl mx-auto gallery-container relative"> {/* Added relative positioning */}
+
       <Slider {...settings}>
         {images.map((url, index) => (
-          <div key={index} className="w-full h-96 flex justify-center items-center"> {/* Slide container */}
+          <div key={index} className="w-full max-h-96 flex justify-center items-center"> {/* Slide container */}
             <img src={url} alt={`slide-${index}`} className="w-full h-full object-cover rounded-lg" /> {/* Image styling */}
           </div>
         ))}
@@ -51,5 +52,3 @@ const Gallery = () => {
     </div>
   );
 };
-
-export default Gallery;
