@@ -47,11 +47,10 @@ function App() {
                 specializes in creating stunning backsplashes that enhance any
                 kitchen. His extensive experience and commitment to quality have
                 earned him a reputation as one of the area&apos;s most skilled
-                tilers. If you&apos;re looking to update your home with a
-                new backsplash,
-                Andy&apos;s craftsmanship and dedication ensure exceptional
-                results. Trust Andy Gauthier for unparalleled tile work that
-                combines artistry with durability.
+                tilers. If you&apos;re looking to update your home with a new
+                backsplash, Andy&apos;s craftsmanship and dedication ensure
+                exceptional results. Trust Andy Gauthier for unparalleled tile
+                work that combines artistry with durability.
               </p>
             </div>
           </div>
@@ -66,7 +65,9 @@ function App() {
         <section id="testimonials" className="my-12">
           <div className="p-6 flex flex-col lg:flex-row justify-between">
             <div className="lg:w-1/2 mb-4 lg:mb-0">
-              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black">Testimonials</h1>
+              <h1 className="text-4xl md:text-5xl lg:text-6xl font-black">
+                Testimonials
+              </h1>
             </div>
             <div className="lg:w-1/2">
               <p>
@@ -78,7 +79,44 @@ function App() {
                 were spot-on—we&apos;re so glad we took his advice. I highly
                 recommend Andy!&quot; — Nancy N.
               </p>
+              <div className="border border-black h-64"></div>
             </div>
+          </div>
+          <div className="p-6 border border-black flex flex-col w-full lg:flex-row justify-between">
+            <p className="w-1/2">
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus doloremque quo odio, vero ipsum ipsa, sunt corrupti
+              consectetur laborum ut consequatur a quisquam quae dolorem,
+              dolorum voluptas voluptatem voluptates. Aliquid, praesentium.
+              Quisquam odio eaque iusto ad, nesciunt sint voluptatum error nisi
+              ipsam nobis laborum, vitae illum? Natus, itaque! Est reiciendis,
+              architecto quae quos nulla corrupti vitae quam necessitatibus quas
+              quod? Ratione tenetur voluptates deleniti asperiores eligendi,
+              veniam repudiandae iure quam, cumque neque, nisi quia porro. Ad
+              voluptate, magni fugiat dolorum ipsa adipisci ipsum. Quia iusto
+              voluptatem inventore repellat minima iure, molestias minus!
+              Numquam quibusdam delectus error nemo culpa non consequuntur.
+            </p>
+            <div className="border border-black h-64 w-1/2"></div>
+          </div>
+          <br />
+          <div className="p-6 border border-black flex flex-col w-full lg:flex-row justify-between">
+
+          <div className="border border-black h-64 w-1/2"></div>
+
+          <p className="w-1/2">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
+            id? Enim autem quibusdam amet eligendi necessitatibus, nam culpa ex
+            suscipit fuga maxime velit itaque nisi a odit. Molestias tempora
+            quasi accusamus. Perferendis saepe inventore possimus numquam omnis
+            distinctio odio expedita recusandae minima id. Sunt et recusandae
+            quidem ab nemo culpa velit. Aliquam, maiores repellendus nihil
+            itaque odio ad ullam cum assumenda dicta in ab natus repellat maxime
+            libero dignissimos totam? Quia dolorum velit laudantium voluptates
+            iste quibusdam ipsum eos, ad earum eius quidem quod. Ad saepe minus
+            non sit at autem facilis vero architecto totam nam, esse expedita
+            molestias accusamus?
+          </p>
           </div>
         </section>
 
@@ -114,7 +152,9 @@ function App() {
                 </a>
               </p>
             </div>
-            <p className="text-lg md:text-2xl py-4">For more recent photos, please visit our Instagram page</p>
+            <p className="text-lg md:text-2xl py-4">
+              For more recent photos, please visit our Instagram page
+            </p>
             <a
               href="https://www.instagram.com/bridgenorth_backsplash"
               target="_blank"
