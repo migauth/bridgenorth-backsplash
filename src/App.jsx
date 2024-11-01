@@ -3,35 +3,19 @@ import Gallery from "./components/Gallery";
 import Navbar from "./components/Navbar";
 import RequestQuote from "./components/RequestQuote";
 import "react-image-gallery/styles/css/image-gallery.css";
+import Home from "./pages/Home";
 
 function App() {
-  const handleRequestClick = () => {
-    window.location.href =
-      "mailto:bridgenorthbacksplash@outlook.com?subject=Request%20for%20Estimate";
-  };
 
   return (
     <>
       <main>
+        <nav>
+          <Navbar />
+        </nav>
         <section id="home">
-          <nav>
-            <Navbar handleRequestClick={handleRequestClick} />
-          </nav>
-          <div className="content-wrapper flex flex-col items-center justify-center pt-36 text-center">
-            <div>
-              <h1 className="text-4xl md:text-6xl text-white font-black">
-                Your local backsplash expert
-              </h1>
-              <h2 className="text-2xl md:text-3xl text-white font-black mt-4">
-                Since 1985
-              </h2>
-              <div className="pt-8">
-                <RequestQuote handleRequestClick={handleRequestClick} />
-              </div>
-            </div>
-          </div>
+          <Home />
         </section>
-
         <section id="about" className="my-12">
           <div className="p-6 flex flex-col lg:flex-row justify-between">
             <div className="lg:w-1/2 mb-4 lg:mb-0">
@@ -106,18 +90,18 @@ function App() {
           </div>
         </section>
 
-        <section id="estimate" className="mt-12">
+        <section id="quote" className="mt-12">
           <div className="flex flex-col items-center justify-center py-20 text-center">
             <div>
               <h3 className="text-4xl md:text-6xl text-white">
-                Request a free estimate
+                Request a free quote
               </h3>
               <h4 className="text-lg md:text-xl text-white">
                 A proposal will be drafted, and the complete process will be
                 clearly outlined.
               </h4>
               <div className="pt-8">
-                <RequestQuote handleRequestClick={handleRequestClick} />
+                <RequestQuote />
               </div>
             </div>
           </div>
