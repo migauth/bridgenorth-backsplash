@@ -1,5 +1,5 @@
 /* App.css */
-#sec1 {
+#home {
   background-image: url('./assets/images/home-page/home-page-desktop2.jpg');
   background-size: cover; /* Ensures the image covers the entire background */
   background-repeat: no-repeat; /* Prevents the image from repeating */

@@ -13,7 +13,7 @@ function App() {
   return (
     <>
       <main>
-        <section id="sec1">
+        <section id="home">
           <nav>
             <Navbar handleRequestClick={handleRequestClick} />
           </nav>
