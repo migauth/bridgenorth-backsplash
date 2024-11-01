@@ -9,7 +9,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className="flex flex-wrap items-center justify-between p-6 text-xl bg-gray-800/70 text-white">
+    <div className="fixed z-10 w-full flex flex-wrap items-center justify-between p-6 text-xl bg-gray-800/70 text-white">
       <div className="w-full md:w-auto text-center md:text-left">
         <h1 id="logo" className="font-black text-3xl">
           Bridgenorth Backsplash

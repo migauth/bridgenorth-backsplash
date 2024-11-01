@@ -84,39 +84,25 @@ function App() {
           </div>
           <div className="p-6 border border-black flex flex-col w-full lg:flex-row justify-between">
             <p className="w-1/2">
-              Lorem, ipsum dolor sit amet consectetur adipisicing elit.
-              Necessitatibus doloremque quo odio, vero ipsum ipsa, sunt corrupti
-              consectetur laborum ut consequatur a quisquam quae dolorem,
-              dolorum voluptas voluptatem voluptates. Aliquid, praesentium.
-              Quisquam odio eaque iusto ad, nesciunt sint voluptatum error nisi
-              ipsam nobis laborum, vitae illum? Natus, itaque! Est reiciendis,
-              architecto quae quos nulla corrupti vitae quam necessitatibus quas
-              quod? Ratione tenetur voluptates deleniti asperiores eligendi,
-              veniam repudiandae iure quam, cumque neque, nisi quia porro. Ad
-              voluptate, magni fugiat dolorum ipsa adipisci ipsum. Quia iusto
-              voluptatem inventore repellat minima iure, molestias minus!
-              Numquam quibusdam delectus error nemo culpa non consequuntur.
+              &quot;Andy did an excellent job with our new backsplash. He
+              arrived on time, cleaned up afterward, and handled the challenging
+              installation with complete professionalism. I highly recommend
+              Andy for any backsplash project.&quot; — Bonnie F
             </p>
             <div className="border border-black h-64 w-1/2"></div>
           </div>
           <br />
           <div className="p-6 border border-black flex flex-col w-full lg:flex-row justify-between">
+            <div className="border border-black h-64 w-1/2"></div>
 
-          <div className="border border-black h-64 w-1/2"></div>
-
-          <p className="w-1/2">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum,
-            id? Enim autem quibusdam amet eligendi necessitatibus, nam culpa ex
-            suscipit fuga maxime velit itaque nisi a odit. Molestias tempora
-            quasi accusamus. Perferendis saepe inventore possimus numquam omnis
-            distinctio odio expedita recusandae minima id. Sunt et recusandae
-            quidem ab nemo culpa velit. Aliquam, maiores repellendus nihil
-            itaque odio ad ullam cum assumenda dicta in ab natus repellat maxime
-            libero dignissimos totam? Quia dolorum velit laudantium voluptates
-            iste quibusdam ipsum eos, ad earum eius quidem quod. Ad saepe minus
-            non sit at autem facilis vero architecto totam nam, esse expedita
-            molestias accusamus?
-          </p>
+            <p className="w-1/2">
+              &quot;I had a new kitchen backsplash installed and was thrilled
+              with the results. Andy Gauthier handled the project with
+              professionalism, keeping me informed about each step and the
+              timeline. He took care to cover everything to prevent accidents
+              and left the space spotless. I would gladly hire Andy for any
+              future tile work.&quot; — Brenda K.
+            </p>
           </div>
         </section>
 
