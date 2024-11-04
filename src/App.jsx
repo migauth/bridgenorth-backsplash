@@ -23,10 +23,8 @@ function App() {
           <About />
         </section>
 
-        <section id="gallery" className="flex justify-center items-center h-screen w-full">
-        <div className="w-full max-w-full border border-black">
+        <section id="gallery" className="min-h-screen pt-36">
             <Gallery />
-          </div>
         </section>
 
         <section id="testimonials" className="min-h-screen pt-20">
