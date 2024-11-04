@@ -2,11 +2,10 @@ export default function About() {
   return (
     <div id="about" className="my-12">
       <div className="ml-12 mr-20 flex flex-col justify-between">
-        <div className="mb-4">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-black">
-            Specializing in Backsplashes
-          </h1>
-        </div>
+        <h1 className="mb-8 text-4xl md:text-5xl lg:text-6xl font-black">
+          Specializing in Backsplashes
+        </h1>
+
         <div className="text-2xl  sm:text-3xl">
           <p>
             Andy Gauthier is a highly experienced tiler based in Bridgenorth,

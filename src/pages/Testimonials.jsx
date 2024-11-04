@@ -2,11 +2,9 @@ export default function Testimonials() {
   return (
     <div id="testimonials" className="my-12">
       <div className="p-6 flex flex-col justify-between">
-        <div className="lg:w-1/2 mb-4 lg:mb-0">
-          <h1 className="text-4xl md:text-5xl lg:text-6xl font-black">
-            Testimonials
-          </h1>
-        </div>
+        <h1 className="mb-8 text-4xl md:text-5xl lg:text-6xl font-black">
+          Testimonials
+        </h1>
         <div className="text-2xl">
           <p>
             &quot;We hired Andy to tile our backsplash, and we couldn&apos;t be
@@ -20,7 +18,7 @@ export default function Testimonials() {
         </div>
       </div>
       <div className="text-2xl">
-      <p className="text-2xl">
+        <p className="text-2xl">
           &quot;Andy did an excellent job with our new backsplash. He arrived on
           time, cleaned up afterward, and handled the challenging installation
           with complete professionalism. I highly recommend Andy for any
