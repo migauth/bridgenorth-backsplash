@@ -1,10 +1,12 @@
 export default function Testimonials() {
   return (
-    <div id="testimonials" className="my-12">
+    <div id="testimonials" className="py-12">
       <div className="p-6 flex flex-col justify-between">
-        <h1 className="mb-8 text-4xl md:text-5xl lg:text-6xl font-black">
-          Testimonials
-        </h1>
+        <div className="flex justify-center items-center md:justify-start">
+          <h1 className="mb-8 text-4xl md:text-5xl lg:text-6xl font-black">
+            Testimonials
+          </h1>
+        </div>
         <div className="text-2xl">
           <p>
             &quot;We hired Andy to tile our backsplash, and we couldn&apos;t be
@@ -14,8 +16,9 @@ export default function Testimonials() {
             centered, and the ideas he suggested were spot-on—we&apos;re so glad
             we took his advice. I highly recommend Andy!&quot; — Nancy N.
           </p>
-          <div className="border border-black h-64"></div>
+          {/* <div className="border border-black h-64"></div> */}
         </div>
+        <br />
         <div className="text-2xl">
           <p className="text-2xl">
             &quot;Andy did an excellent job with our new backsplash. He arrived
@@ -23,7 +26,7 @@ export default function Testimonials() {
             installation with complete professionalism. I highly recommend Andy
             for any backsplash project.&quot; — Bonnie F
           </p>
-          <div className="border border-black h-64"></div>
+          {/* <div className="border border-black h-64"></div> */}
         </div>
         <br />
         <div className="text-2xl">
@@ -35,7 +38,7 @@ export default function Testimonials() {
             spotless. I would gladly hire Andy for any future tile work.&quot; —
             Brenda K.
           </p>
-          <div className="border border-black h-64"></div>
+          {/* <div className="border border-black h-64"></div> */}
         </div>
       </div>
     </div>
