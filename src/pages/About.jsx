@@ -11,8 +11,8 @@ export default function About() {
 
         <div className="border border-black h-36">Something here?</div>
 
-        <div className="text-2xl sm:text-3xl">
-          <p>
+        <div className="text-2xl p-4 border-4 border-yellow-800 border-double rounded">
+        <p>
             Andy Gauthier is a highly experienced tiler based in Bridgenorth,
             Ontario, with nearly 40 years of expertise in the craft. Renowned
             for his meticulous attention to detail, Andy specializes in creating
