@@ -4,7 +4,7 @@ export default function About() {
       <div className="flex flex-col mx-8">
         {/* Center on small screens, left-align on medium and larger screens */}
         <div className="flex justify-center items-center md:justify-start">
-          <h1 className="mb-8 font-black text-3xl md:text-5xl lg:text-6xl">
+          <h1 className="mb-8 font-black text-2xl md:text-5xl lg:text-6xl">
             Specializing in Backsplashes
           </h1>
         </div>
