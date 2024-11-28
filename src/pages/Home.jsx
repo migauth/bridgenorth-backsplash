@@ -3,8 +3,10 @@ import RequestQuote from "../components/RequestQuote";
 export default function Home(handleRequestClick) {
   return (
     <div id="home">
-      <div className="content-wrapper flex flex-col items-center justify-center pt-60 text-center">
+      <div className="content-wrapper flex flex-col items-center justify-center pt-6 text-center">
+        <img src="../public/logo.jpg" alt="logo" className="w-96"/>
         <div>
+
           <h1 className="text-4xl md:text-6xl text-white font-black">
             Your local backsplash expert
           </h1>
