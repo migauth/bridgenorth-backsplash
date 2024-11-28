@@ -1,10 +1,11 @@
 import RequestQuote from "../components/RequestQuote";
+import logo from '../assets/images/home-page/logo.jpg';
 
 export default function Home(handleRequestClick) {
   return (
     <div id="home">
       <div className="content-wrapper flex flex-col items-center justify-center pt-6 text-center">
-        <img src="../public/logo.jpg" alt="logo" className="w-96"/>
+        <img src={logo} alt="logo" className="w-96"/>
         <div>
 
           <h1 className="text-4xl md:text-6xl text-white font-black">
