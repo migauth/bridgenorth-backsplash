@@ -7,7 +7,7 @@ export default function Testimonials() {
             Testimonials
           </h1>
         </div>
-        <div id="test">
+        <div id="testimonial-p">
           <div className="text-2xl p-4 border-4 border-brown-700 border-double rounded">
             <p>
               &quot;We hired Andy to tile our backsplash, and we couldn&apos;t
