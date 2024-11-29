@@ -1,15 +1,9 @@
 import { useState, useEffect } from "react";
 import { loadImages } from "../utils/loadImages";
-import "./Gallery.css";
+import { Carousel } from "@material-tailwind/react";
 
 export default function Gallery() {
   const [images, setImages] = useState([]);
-  const [selectedPic, setSelectedPic] = useState(null)
-
-  const handlePicClick = (pic) => {
-    setSelectedPic(pic)
-    console.log(pic);
-  }
 
   useEffect(() => {
     const fetchImages = async () => {
@@ -20,35 +14,23 @@ export default function Gallery() {
     fetchImages();
   }, []);
 
-
   return (
-    <div className="p-6">
-      <div className="flex justify-center items-center md:justify-start">
-        <h1 className="mb-8 text-4xl md:text-5xl lg:text-6xl font-black">
-          Gallery
-        </h1>
-      </div>
-
-      <div className="w-full min-h-screen p-4 grid grid-cols-1 md:grid-cols-1 lg:grid-cols-4 gap-4">
-        {" "}
-        {/* Responsive grid */}
-        {images.map((url, index) => (
-          <div
-            key={index}
-            className="relative w-full h-full overflow-hidden rounded-lg"
-            onClick={() => handlePicClick(index)}
-          >
-            {" "}
-            {/* Container for each image */}
-            <img
-              src={url}
-              alt={`image-${index}`}
-              className="w-full h-full object-cover"
-            />{" "}
-            {/* Image styling */}
-          </div>
-        ))}
-      </div>
+    <div className="mx-4 lg:mx-16"> {/* Adds margin to the left and right */}
+    <Carousel
+      loop
+      autoplay
+      autoplayDelay={5000} // 5-second delay for smoother transitions
+      className="rounded-xl h-96"
+    >
+      {images.map((url, index) => (
+        <img
+          key={index}
+          src={url}
+          alt={`Image ${index + 1}`}
+          className="h-full w-full object-cover object-center"
+        />
+      ))}
+    </Carousel>
     </div>
   );
 }
