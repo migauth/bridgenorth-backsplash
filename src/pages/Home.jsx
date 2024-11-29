@@ -4,11 +4,11 @@ import logo from '../assets/images/home-page/logo.jpg';
 export default function Home(handleRequestClick) {
   return (
     <div id="home">
-      <div className="content-wrapper flex flex-col items-center justify-center pt-6 text-center">
-        <img src={logo} alt="logo" className="w-96"/>
+      <div className="content-wrapper flex flex-col items-center justify-center pt-60 text-center sm:pt-40">
+        <img src={logo} alt="logo" className="w-1/3 sm:w-1/5"/>
         <div>
 
-          <h1 className="text-4xl md:text-6xl text-white font-black">
+          <h1 className="text-4xl md:text-5xl text-white font-black">
             Your local backsplash expert
           </h1>
           <h2 className="text-2xl md:text-3xl text-white font-black mt-4">
