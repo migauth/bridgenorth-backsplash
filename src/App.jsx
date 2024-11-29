@@ -10,28 +10,28 @@ import "react-image-gallery/styles/css/image-gallery.css";
 function App() {
   return (
     <>
-      <main>
+      <main className="flex flex-col min-h-screen">
         <nav>
           <Navbar />
         </nav>
 
-        <section id="home" className="min-h-screen pt-20">
+        <section id="home" className="flex-grow min-h-screen">
           <Home />
         </section>
 
-        <section id="about" className="min-h-screen pt-20">
+        <section id="about" className="flex-grow min-h-screen">
           <About />
         </section>
 
-        <section id="gallery" className="min-h-screen pt-36">
-            <Gallery />
+        <section id="gallery" className="flex-grow ">
+          <Gallery />
         </section>
 
-        <section id="testimonials" className="min-h-screen pt-20">
+        <section id="testimonials" className="flex-grow min-h-screen">
           <Testimonials />
         </section>
 
-        <section id="contact" className="min-h-screen py-4">
+        <section id="contact" className="flex-grow min-h-screen">
           <Contact />
         </section>
 
