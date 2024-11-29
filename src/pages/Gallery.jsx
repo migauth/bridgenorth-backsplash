@@ -4,6 +4,12 @@ import "./Gallery.css";
 
 export default function Gallery() {
   const [images, setImages] = useState([]);
+  const [selectedPic, setSelectedPic] = useState(null)
+
+  const handlePicClick = (pic) => {
+    setSelectedPic(pic)
+    console.log(pic);
+  }
 
   useEffect(() => {
     const fetchImages = async () => {
@@ -13,6 +19,7 @@ export default function Gallery() {
 
     fetchImages();
   }, []);
+
 
   return (
     <div className="p-6">
@@ -29,6 +36,7 @@ export default function Gallery() {
           <div
             key={index}
             className="relative w-full h-full overflow-hidden rounded-lg"
+            onClick={() => handlePicClick(index)}
           >
             {" "}
             {/* Container for each image */}
