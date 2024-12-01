@@ -1,5 +1,5 @@
 import RequestQuote from "../components/RequestQuote";
-import logo from '../assets/images/home-page/logo.jpg';
+import logo from '../assets/images/home-page/logoedit.png';
 
 export default function Home(handleRequestClick) {
   return (

@@ -15,22 +15,31 @@ export default function Gallery() {
   }, []);
 
   return (
-    <div className="mx-4 lg:mx-16"> {/* Adds margin to the left and right */}
-    <Carousel
-      loop
-      autoplay
-      autoplayDelay={5000} // 5-second delay for smoother transitions
-      className="rounded-xl h-96"
-    >
-      {images.map((url, index) => (
-        <img
-          key={index}
-          src={url}
-          alt={`Image ${index + 1}`}
-          className="h-full w-full object-cover object-center"
-        />
-      ))}
-    </Carousel>
+    <div id="gallery" className="py-4">
+      <div className="p-8 flex justify-center items-center md:justify-start">
+        <h1 className="mb-8 text-4xl md:text-5xl lg:text-6xl font-black">
+          Gallery
+        </h1>
+      </div>
+      <div className="mx-4 lg:mx-16">
+        {" "}
+        {/* Adds margin to the left and right */}
+        <Carousel
+          loop
+          autoplay
+          autoplayDelay={5000} // 5-second delay for smoother transitions
+          className="rounded-xl h-96"
+        >
+          {images.map((url, index) => (
+            <img
+              key={index}
+              src={url}
+              alt={`Image ${index + 1}`}
+              className="h-full w-full object-cover object-center"
+            />
+          ))}
+        </Carousel>
+      </div>
     </div>
   );
 }

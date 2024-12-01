@@ -4,6 +4,22 @@
        url('./assets/Caveat-VariableFont_wght.ttf') format('truetype');
 }
 
+@font-face {
+  font-family: 'perpetua-titling-mt-light';
+  src: local('perpetua-titling-mt-light'), 
+       url('./assets/perpetua-titling-mt-light.ttf') format('truetype');
+}
+
+body {
+  font-family: 'perpetua-titling-mt-light';
+  background-color: beige;
+}
+
+.sanch {
+  font-family: Sanchez;
+}
+
+
 #home {
   background-image: url('./assets/images/home-page/home-page-desktop2.jpg');
   background-size: cover; /* Ensures the image covers the entire background */
@@ -27,3 +43,4 @@
 #testimonial-p {
   font-family: "Caveat-VariableFont_wght", Arial, Helvetica, sans-serif;
 }
+
