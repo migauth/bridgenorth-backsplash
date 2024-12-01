@@ -41,7 +41,7 @@ const Navbar = () => {
           Bridgenorth Backsplash
         </h1>
       </div>
-      <div className="flex gap-2 w-full justify-center md:w-auto md:gap-4 md:justify-end mt-4 md:mt-0">
+      <div className="sanch flex gap-2 w-full justify-center md:w-auto md:gap-4 md:justify-end mt-4 md:mt-0">
         <button
           className="hover:text-gray-400"
           onClick={() => scrollToSection("about")}
