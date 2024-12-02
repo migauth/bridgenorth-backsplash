@@ -2,17 +2,19 @@ export default function About() {
   return (
     <div id="about" className="my-12">
       <div className="flex flex-col mx-8">
-        {/* Center on small screens, left-align on medium and larger screens */}
-        <div className="flex justify-center items-center md:justify-start sm:p-4">
-          <h1 className="mb-8 font-black text-2xl md:text-5xl lg:text-6xl">
-            Specializing in Backsplashes
+        <div className="p-8 flex justify-center items-center md:justify-start">
+          <h1 className="mb-8 text-4xl md:text-5xl lg:text-6xl font-black">
+            About
           </h1>
         </div>
 
-        {/* <div className="border border-black h-36">Something here?</div> */}
+        <div className="sanch text-xl px-8 rounded sm:text-2xl">
+          {" "}
+          Specializing in Backsplashes
+        </div>
 
-        <div className="sanch text-xl p-4 rounded sm:text-2xl">
-        <p>
+        <div className="sanch text-xl p-8 rounded sm:text-2xl">
+          <p>
             Andy Gauthier is a highly experienced tiler based in Bridgenorth,
             Ontario, with nearly 40 years of expertise in the craft. Renowned
             for his meticulous attention to detail, Andy specializes in creating

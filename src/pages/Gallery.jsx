@@ -16,7 +16,7 @@ export default function Gallery() {
 
   return (
     <div id="gallery" className="py-4">
-      <div className="p-8 flex justify-center items-center md:justify-start">
+      <div className="p-8 flex justify-center items-center md:justify-start mx-8">
         <h1 className="mb-8 text-4xl md:text-5xl lg:text-6xl font-black">
           Gallery
         </h1>

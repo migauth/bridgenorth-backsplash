@@ -1,7 +1,7 @@
 export default function Testimonials() {
   return (
     <div id="testimonials" className="py-4">
-      <div className="p-6 flex flex-col justify-between">
+      <div className="p-6 flex flex-col justify-between mx-8">
         <div className="flex justify-center items-center md:justify-start">
           <h1 className="mb-8 text-4xl md:text-5xl lg:text-6xl font-black">
             Testimonials
