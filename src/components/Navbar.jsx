@@ -3,6 +3,7 @@ import "./Navbar.css";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);
+  const [isNavbarVisible, setIsNavbarVisible] = useState(true);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,11 +27,15 @@ const Navbar = () => {
     }
   };
 
+  const handleNavbarToggle = () => {
+    setIsNavbarVisible(!isNavbarVisible);
+  };
+
   return (
     <div
       className={`navbar fixed w-full flex flex-wrap items-center justify-between p-6 text-xl text-white ${
         isScrolled ? "scrolled" : "at-top"
-      }`}
+      } ${isNavbarVisible ? "" : "hidden"}`}
     >
       <div className="w-full md:w-auto text-center md:text-left">
         <h1
@@ -65,6 +70,12 @@ const Navbar = () => {
           onClick={() => scrollToSection("contact")}
         >
           Contact
+        </button>
+        <button
+          className="hover:text-gray-400"
+          onClick={handleNavbarToggle}
+        >
+          <i className="fa-solid fa-angles-up"></i>
         </button>
       </div>
     </div>
