@@ -46,7 +46,7 @@ const Navbar = () => {
           Bridgenorth Backsplash
         </h1>
       </div>
-      <div className="sanch flex gap-2 w-full justify-center md:w-auto md:gap-4 md:justify-end mt-4 md:mt-0">
+      <div className="sanch text-sm flex gap-2 w-full justify-center md:w-auto md:gap-4 md:justify-end mt-4 md:mt-0 md:text-xl">
         <button
           className="hover:text-gray-400"
           onClick={() => scrollToSection("about")}
@@ -71,10 +71,7 @@ const Navbar = () => {
         >
           Contact
         </button>
-        <button
-          className="hover:text-gray-400"
-          onClick={handleNavbarToggle}
-        >
+        <button className="hover:text-gray-400" onClick={handleNavbarToggle}>
           <i className="fa-solid fa-angles-up"></i>
         </button>
       </div>
