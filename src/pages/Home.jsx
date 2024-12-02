@@ -3,7 +3,7 @@ import logo from '../assets/images/home-page/logoedit.png';
 
 export default function Home(handleRequestClick) {
   return (
-      <div className="content-wrapper flex flex-col items-center justify-center pt-60 text-center md:flex-row  lg:flex-col sm:pt-36">
+      <div className="content-wrapper flex flex-col items-center justify-center pt-60 text-center sm:pt-36 md:flex-row  md:mx-8 lg:flex-col ">
         <img src={logo} alt="logo" className="mb-4 w-1/2 sm:w-1/5"/>
         <div>
           <div>
