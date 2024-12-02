@@ -28,8 +28,8 @@ export default function Gallery() {
           loop
           autoplay
           autoplayDelay={5000} // 5-second delay for smoother transitions
-          className="rounded-xl h-96"
-        >
+          className="rounded-xl h-[80vh]"
+          >
           {images.map((url, index) => (
             <img
               key={index}
