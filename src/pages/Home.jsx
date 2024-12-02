@@ -7,10 +7,10 @@ export default function Home(handleRequestClick) {
         <img src={logo} alt="logo" className="mb-4 w-1/2 sm:w-1/5"/>
         <div>
           <div>
-          <h1 className="text-2xl sm:text-2xl md:text-4xl md:font-extrabold lg:text-5xl text-white ">
+          <h1 className="text-2xl bg-gradient-to-l from-transparent py-2 via-blue-gray-800 to-transparent sm:text-2xl md:text-4xl lg:text-5xl text-white ">
             Your local backsplash expert
           </h1>
-          <h2 className="sm:text-xl md:text-2xl md:font-extrabold lg:text-3xl text-white mt-4">
+          <h2 className="sm:text-xl md:text-via-blue-gray-800g:text-3xl text-white mt-4">
             Since 1985
           </h2>
 
