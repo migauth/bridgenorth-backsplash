@@ -28,7 +28,7 @@ const Navbar = () => {
 
   return (
     <div
-      className={`navbar fixed z-10 w-full flex flex-wrap items-center justify-between p-6 text-xl text-white ${
+      className={`navbar fixed w-full flex flex-wrap items-center justify-between p-6 text-xl text-white ${
         isScrolled ? "scrolled" : "at-top"
       }`}
     >
