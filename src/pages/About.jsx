@@ -1,9 +1,8 @@
 export default function About() {
   return (
-    <div id="about" className="my-12">
       <div className="flex flex-col mx-8">
         <div className="p-8 flex justify-center items-center md:justify-start">
-          <h1 className="mb-8 text-4xl md:text-5xl lg:text-6xl font-black">
+          <h1 className="mb-8 text-4xl md:text-5xl lg:text-6xl">
             About
           </h1>
         </div>
@@ -27,6 +26,5 @@ export default function About() {
           </p>
         </div>
       </div>
-    </div>
   );
 }

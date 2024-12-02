@@ -15,11 +15,11 @@ function App() {
           <Navbar />
         </nav>
 
-        <section id="home" className="flex-grow ">
+        <section id="home" className="flex-grow">
           <Home />
         </section>
 
-        <section id="about" className="flex-grow ">
+        <section id="about" className="flex-grow">
           <About />
         </section>
 

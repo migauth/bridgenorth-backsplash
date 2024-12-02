@@ -19,7 +19,6 @@ body {
   font-family: Sanchez;
 }
 
-
 #home {
   background-image: url('./assets/images/home-page/home-page-desktop2.jpg');
   background-size: cover; /* Ensures the image covers the entire background */
@@ -32,7 +31,6 @@ body {
 #quote {
   background-color: rgb(129,139,126)
 }
-
 
 @media only screen and (max-width: 896px) and (orientation: landscape) {
   #sec1 .content-wrapper {
