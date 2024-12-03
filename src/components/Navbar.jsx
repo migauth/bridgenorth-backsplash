@@ -71,7 +71,7 @@ const Navbar = () => {
         >
           Contact
         </button>
-        <button className="hover:text-gray-400" onClick={handleNavbarToggle}>
+        <button className="hover:text-gray-400 hover:animate-bounce" onClick={handleNavbarToggle}>
           <i className="fa-solid fa-angles-up"></i>
         </button>
       </div>
