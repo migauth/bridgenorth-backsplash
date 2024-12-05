@@ -1,5 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 import withMT from "@material-tailwind/react/utils/withMT";
+import tailwindcssAnimated from "tailwindcss-animated";
+
 
 export default withMT({
   content: [
@@ -9,6 +11,6 @@ export default withMT({
     extend: {},
   },
   plugins: [
-    require('tailwindcss-animated')
+    tailwindcssAnimated 
   ],
 });
