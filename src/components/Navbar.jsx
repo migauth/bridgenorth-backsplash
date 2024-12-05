@@ -76,17 +76,17 @@ const Navbar = () => {
             className="hover:text-gray-400 hover:animate-bounce"
             onClick={handleNavbarToggle}
           >
-            <i className="fa-solid fa-angles-up"/>
+            <i className="fa-solid fa-angles-up" />
           </button>
         </div>
       </div>
       {!isNavbarVisible && (
         <div className="navbar fixed w-full flex flex-row-reverse p-6 text-xl text-white">
           <button
-            className="hover:text-gray-400 hover:animate-bounce"
+            className="hover:text-gray-400 hover:animate-bounce bg-[rgba(31,41,55,1)] p-3 rounded-full flex items-center justify-center"
             onClick={handleNavbarToggle}
           >
-            <i className="fa-solid fa-angles-down"/>
+            <i className="fa-solid fa-angles-down" />
           </button>
         </div>
       )}
