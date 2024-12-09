@@ -1,5 +1,5 @@
 export async function loadImages() {
-  const modules = import.meta.glob('../assets/images/gallery/*.{jpg,jpeg,png}');
+  const modules = import.meta.glob('../assets/images/reduced/*.{jpg,jpeg,png,avif,webp}');
   const images = {};
 
   // Create an array of promises for all image imports
