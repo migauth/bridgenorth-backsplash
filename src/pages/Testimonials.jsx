@@ -18,7 +18,6 @@ export default function Testimonials() {
               spot-on—we&apos;re so glad we took his advice. I highly recommend
               Andy!&quot; — Nancy N.
             </p>
-            {/* <div className="border border-black h-64"></div> */}
           </div>
           <br />
           <div className="caveat p-4 border-4 bg-white border-brown-700 border-double rounded">
@@ -28,7 +27,6 @@ export default function Testimonials() {
               installation with complete professionalism. I highly recommend
               Andy for any backsplash project.&quot; — Bonnie F
             </p>
-            {/* <div className="border border-black h-64"></div> */}
           </div>
           <br />
           <div className="caveat p-4 border-4 bg-white border-brown-700 border-double rounded">
