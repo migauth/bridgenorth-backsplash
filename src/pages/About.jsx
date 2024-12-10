@@ -11,7 +11,7 @@ export default function About() {
           setIsVisible(true);
         }
       },
-      { threshold: 0.8 } // Trigger when 50% of the element is in view
+      { threshold: 0.8 } // Trigger at 80% view
     );
 
     const currentRef = textRef.current;
