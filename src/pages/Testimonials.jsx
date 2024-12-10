@@ -21,7 +21,7 @@ export default function Testimonials() {
             {/* <div className="border border-black h-64"></div> */}
           </div>
           <br />
-          <div className="caveat caveatp-4 border-4 bg-white border-brown-700 border-double rounded">
+          <div className="caveat p-4 border-4 bg-white border-brown-700 border-double rounded">
             <p>
               &quot;Andy did an excellent job with our new backsplash. He
               arrived on time, cleaned up afterward, and handled the challenging
