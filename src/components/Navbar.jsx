@@ -34,7 +34,7 @@ const Navbar = () => {
   return (
     <>
       <div
-        className={`navbar fixed w-full flex flex-wrap items-center justify-between p-6 text-xl text-white ${
+        className={`navbar animate-fade-down fixed w-full flex flex-wrap items-center justify-between p-6 text-xl text-white ${
           isScrolled ? "scrolled" : "at-top"
         } ${isNavbarVisible ? "" : "hidden"}`}
       >
@@ -81,7 +81,7 @@ const Navbar = () => {
         </div>
       </div>
       {!isNavbarVisible && (
-        <div className="navbar fixed w-full flex flex-row-reverse p-6 text-xl text-white">
+        <div className="navbar animate-fade-down fixed w-full flex flex-row-reverse p-6 text-xl text-white">
           <button
             className="hover:text-gray-400 hover:animate-bounce bg-[rgba(31,41,55,1)] p-3 rounded-full flex items-center justify-center"
             onClick={handleNavbarToggle}
