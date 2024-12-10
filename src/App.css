@@ -35,10 +35,34 @@ body {
 #testimonial-p {
   font-family: "Caveat-VariableFont_wght", Arial, Helvetica, sans-serif;
 }
-
 @media only screen and (max-height: 480px) {
-  #home .content-wrapper {
+  #home .home-wrapper {
     flex-direction: row;
     margin-top: -20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) and (orientation: portrait) {
+  .home-wrapper {
+    margin-top: 20%;
+    text-align: center;
+  }
+
+  .home-wrapper img {
+    width: 33%; 
+    margin-bottom: 50px; 
+  }
+
+  .home-wrapper h1 {
+    font-size: 3rem; 
+  }
+
+  .home-wrapper h2 {
+    margin-top: 8px; 
+    font-size: 1.25rem; 
+  }
+
+  .home-wrapper .request-quote {
+    padding-top: 24px; 
   }
 }
