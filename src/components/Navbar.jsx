@@ -41,7 +41,7 @@ const Navbar = () => {
         <div className="w-full md:w-auto text-center md:text-left">
           <h1
             id="logo"
-            className="sm:text-xl lg:text-2xl"
+            className=" cursor-pointer sm:text-xl lg:text-2xl"
             onClick={() => scrollToSection()}
           >
             Bridgenorth Backsplash
