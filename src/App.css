@@ -32,9 +32,10 @@ body {
   background-color: rgb(129, 139, 126);
 }
 
-#testimonial-p {
+.caveat {
   font-family: "Caveat-VariableFont_wght", Arial, Helvetica, sans-serif;
 }
+
 @media only screen and (max-height: 480px) {
   #home .home-wrapper {
     flex-direction: row;
