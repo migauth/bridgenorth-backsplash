@@ -7,8 +7,7 @@ export default function About() {
           </h1>
         </div>
 
-        <div className="sanch text-xl px-8 rounded sm:text-2xl">
-          {" "}
+        <div className="caveat text-xl px-8 animate-fade-up sm:text-4xl">
           Specializing in Backsplashes
         </div>
 
