@@ -22,12 +22,11 @@ export default function Gallery() {
         </h1>
       </div>
       <div className="mx-4 lg:mx-16">
-        {" "}
-        {/* Adds margin to the left and right */}
+
         <Carousel
           loop
           autoplay
-          autoplayDelay={5000} // 5-second delay for smoother transitions
+          autoplayDelay={5000} // 5-second delay
           className="rounded-xl h-[80vh]"
           >
           {images.map((url, index) => (
