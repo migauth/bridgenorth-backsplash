@@ -46,7 +46,7 @@ export default function About() {
       <div className="sanch text-xl p-8 rounded sm:text-2xl">
         <p>
           Andy Gauthier is a highly experienced tiler based in Bridgenorth,
-          Ontario, with nearly 40 years of expertise in the craft. Renowned for
+          Ontario, with over 40 years of expertise in the craft. Renowned for
           his meticulous attention to detail, Andy specializes in creating
           stunning backsplashes that enhance any kitchen. His extensive
           experience and commitment to quality have earned him a reputation as
