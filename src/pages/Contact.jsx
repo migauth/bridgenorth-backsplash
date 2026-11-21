@@ -32,6 +32,9 @@ export default function Contact() {
               (705) 760-6699
             </a>
           </p>
+          <p className="sanch text-lg md:text-xl hover:text-gray-400">
+            Hours of operation - Friday 9am to 12pm
+          </p>
         </div>
         <p className="sanch text-lg md:text-2xl py-4">
           For more recent photos, please visit our Facebook or Instagram page
