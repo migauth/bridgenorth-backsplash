@@ -33,7 +33,7 @@ export default function Contact() {
             </a>
           </p>
           <p className="sanch text-lg md:text-xl hover:text-gray-400">
-            Hours of operation - Friday 9am to 12pm
+            Hours of operation - Friday 9am to 12pm by appointment only
           </p>
         </div>
         <p className="sanch text-lg md:text-2xl py-4">
